@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+    margin: 30px auto;
+    width: 70%;
+    background-color: #a1c3ff;
+}
+img{
+    width: 250px;
+    margin-top: 35px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+ul{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    background-color: rgb(26, 181, 233);
+    align-items: center;
+}
+nav div{
+    color:white;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+nav div:hover{
+    transform: scale(1.05);
+  
+}
+a{
+    text-decoration: none;
+    margin-left: 1em;
+    color:white;
+    font-weight: bold; 
+    transition: all 300ms ease-in-out;  
+    font-family: 'Kanit', sans-serif;
+    
+}
+ul{
+    display: flex;
+    gap: 1em;
+    padding: 10px;
+    list-style: none;
+    justify-content: end;
+}
+header{
+    display: flex;
+    background-color:blue;
+    padding-left: 20px;
+    color: white;
+}
+header h1{
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+header p{
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    flex: 1;
+}
+.cards p{
+    margin-top: 1.5em;
+    margin-bottom: 12px;
+}
+
+.cards h2{
+    font-family: 'Kanit', sans-serif;
+}
+.card1{
+    background-color: blue;
+    color: white;
+    width: 500px;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6%;
+    transition: all 300ms ease-in-out;
+    
+}
+.card2{
+    background-color: blue;
+    color: white;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6%;
+    transition: all 300ms ease-in-out;
+    
+}
+.card1:hover{
+    box-shadow:rgb(37, 37, 132) 0 3px 1px 1px;
+    transform: scale(1.05);
+}
+.card2:hover{
+    box-shadow:rgb(37, 37, 132) 0 3px 1px 1px;
+    transform: scale(1.05);
+}
+.card3:hover{
+    box-shadow:rgb(37, 37, 132) 0 3px 1px 1px;
+    transform: scale(1.05);
+}
+.card3{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6%;
+    transition: all 300ms ease-in-out;
+    
+}
+a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+ 
+
+
